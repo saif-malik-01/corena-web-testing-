@@ -3,7 +3,7 @@ import { Laptop } from "lucide-react";
 export const PRICINGS = [
   {
     title: "Starter",
-    price: "$499/mo",
+    price: "₹4999/mo",
     Icon: Laptop,
     buttonName: "Subscribe",
     variant: "secondary",
@@ -16,7 +16,7 @@ export const PRICINGS = [
   },
   {
     title: "Starter",
-    price: "$499/mo",
+    price: "₹9999/mo",
     Icon: Laptop,
     buttonName: "Subscribe",
     variant: "secondary",
@@ -29,7 +29,7 @@ export const PRICINGS = [
   },
   {
     title: "Starter",
-    price: "$499/mo",
+    price: "₹14999/mo",
     Icon: Laptop,
     buttonName: "Subscribe",
     variant: "primary",

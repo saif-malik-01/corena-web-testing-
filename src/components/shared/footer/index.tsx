@@ -98,7 +98,8 @@ const Footer = () => {
         </div>
       </div>
       <p className="block md:hidden border-t mt-4 pt-4 text-center text-sm text-white/80">
-        © 2025 Corena - All Right Reserved
+        Wellminto Home Services Private Limited © 2025 Corena - All Right
+        Reserved
       </p>
     </footer>
   );
