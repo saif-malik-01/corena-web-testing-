@@ -26,7 +26,8 @@ const Footer = () => {
             <span className="text-xl font-semibold">Corena</span>
           </Link>
           <p className="mt-16 text-sm text-white/80 hidden md:block">
-            © 2025 Corena - All Right Reserved
+            Wellminto Home Services Private Limited © 2025 Corena - All Right
+            Reserved
           </p>
         </span>
         <nav className="md:col-span-4 col-span-6 flex flex-col gap-4 md:justify-self-center text-sm">
