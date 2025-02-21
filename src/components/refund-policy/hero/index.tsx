@@ -8,7 +8,7 @@ const Hero = () => {
         <span className="font-dmsansDisplay italic">Promise</span>
       </h1>
       <p className="font-light text-sm md:text-md">
-        We're committed to a hassle-free refund process. Learn about our refund{" "}
+        We&apos;re committed to a hassle-free refund process. Learn about our refund{" "}
         <br />
         policy, eligibility, and how we ensure a smooth experience for you.
       </p>

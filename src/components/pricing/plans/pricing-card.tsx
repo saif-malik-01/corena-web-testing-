@@ -54,8 +54,8 @@ const PricingCard = ({
       </h3>
       <Button className="w-full">{buttonName}</Button>
       <div className="space-y-4 mt-8">
-        {features.map((f) => (
-          <p className="flex gap-4 text-sm">
+        {features.map((f,index) => (
+          <p key={index} className="flex gap-4 text-sm">
             <Check className="text-accent" size={16} />
             {f}
           </p>

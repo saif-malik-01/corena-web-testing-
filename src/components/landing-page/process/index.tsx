@@ -40,6 +40,7 @@ const Process = () => {
         <div className="flex md:flex-col flex-row items-start gap-4 w-full overflow-x-auto">
           {STEPS.map((s, index) => (
             <Badge
+              key={index}
               variant="outline"
               onClick={() => api?.scrollTo(index)}
               className={cn(

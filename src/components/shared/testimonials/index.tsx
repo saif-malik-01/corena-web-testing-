@@ -14,13 +14,13 @@ const Testimonials = () => {
       </h2>
       <div className="hidden md:flex justify-center gap-4">
         {TESTIMONIALS.map((t) => (
-          <TestimonialCard {...t} />
+          <TestimonialCard key={t.author.name} {...t} />
         ))}
       </div>
       <Carousel className="w-full block md:hidden">
         <CarouselContent>
           {TESTIMONIALS.map((t) => (
-            <CarouselItem>
+            <CarouselItem key={t.author.name}>
               <TestimonialCard {...t} />
             </CarouselItem>
           ))}

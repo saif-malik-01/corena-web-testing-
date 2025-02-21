@@ -11,7 +11,7 @@ const Plans = () => {
       <PricingSelector />
       <div className="md:px-28 flex md:flex-row flex-col gap-4">
         {PRICINGS.map((p) => (
-          <PricingCard {...p} />
+          <PricingCard key={p.title} {...p} />
         ))}
       </div>
     </section>

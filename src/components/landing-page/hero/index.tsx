@@ -1,4 +1,3 @@
-import Image from "next/image";
 import BookingInput from "./booking-input";
 import ClientShowcase from "./client-showcase";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";

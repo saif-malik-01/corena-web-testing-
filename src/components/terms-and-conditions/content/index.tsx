@@ -29,20 +29,20 @@ const Content = () => {
             3 (1) of the Information Technology (Intermediaries guidelines)
             Rules, 2011 that require publishing the rules and regulations,
             privacy policy and Terms of Use for access or usage of domain name
-            corena.mapsily.com ('Website'), including the related mobile site
-            and mobile application (hereinafter referred to as 'Platform').
+            corena.mapsily.com (&apos;Website&apos;), including the related mobile site
+            and mobile application (hereinafter referred to as &apos;Platform&apos;).
           </p>
 
           <p>
             The Platform is owned by WELLMINTO HOME SERVICES PRIVATE LIMITED, a
             company incorporated under the Companies Act, 1956 with its
             registered office at 1276, Preet Vihar, Roorkee, Roorkee, India
-            (hereinafter referred to as "Platform Owner", 'we', 'us', 'our').
+            (hereinafter referred to as &quot;Platform Owner&quot;, &apos;we&apos;, &apos;us&apos;, &apos;our&apos;).
           </p>
 
           <p>
             Your use of the Platform and services and tools are governed by the
-            following terms and conditions ("Terms of Use") as applicable to the
+            following terms and conditions (&quot;Terms of Use&quot;) as applicable to the
             Platform including the applicable policies which are incorporated
             herein by way of reference. If You transact on the Platform, You
             shall be subject to the policies that are applicable to the Platform
@@ -51,7 +51,7 @@ const Content = () => {
 
           <p>
             For the purpose of these Terms of Use, wherever the context so
-            requires "you", 'your' or "user" shall mean any natural or legal
+            requires &quot;you&quot;, &apos;your&apos; or &quot;user&quot; shall mean any natural or legal
             person who has agreed to become a user/buyer on the Platform.
           </p>
 

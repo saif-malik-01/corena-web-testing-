@@ -11,8 +11,8 @@ const Content = () => {
         <h3 className="text-xl font-semibold">Introduction</h3>
         <p>
           This Privacy Policy describes how WELLMINTO HOME SERVICES PRIVATE
-          LIMITED and its affiliates (collectively "WELLMINTO HOME SERVICES
-          PRIVATE LIMITED, we, our, us") collect, use, share, protect or
+          LIMITED and its affiliates (collectively &quot;WELLMINTO HOME SERVICES
+          PRIVATE LIMITED, we, our, us&quot;) collect, use, share, protect or
           otherwise process your information/personal data through our website
           corena.mapsily.com (hereinafter referred to as Platform). Please note
           that you may be able to browse certain sections of the Platform

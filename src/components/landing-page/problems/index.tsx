@@ -6,7 +6,7 @@ const Problems = () => {
     <section className="flex flex-col items-center gap-10 md:py-20 py-10">
       <h2 className="text-2xl md:text-4xl font-semibold">
         Struggling to get <span className="text-accent-700">Results</span> from
-        outreach? Here's Why
+        outreach? Here&apos;s Why
       </h2>
       <div className="flex md:flex-row flex-col gap-4">
         <ProblemCard
