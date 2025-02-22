@@ -1,12 +1,7 @@
-import Script from "next/script";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 const Analytics = () => {
-  return (
-    <Script
-      strategy="afterInteractive"
-      src="https://www.googletagmanager.com/gtm.js?id=GTM-P938MC5P"
-    />
-  );
+  return <GoogleTagManager gtmId="GTM-P938MC5P" />;
 };
 
 export default Analytics;
