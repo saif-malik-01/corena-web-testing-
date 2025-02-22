@@ -2,9 +2,8 @@ import type { Metadata } from "next";
 import { Inter, DM_Serif_Display } from "next/font/google";
 import Navbar from "@/components/shared/navbar";
 import Footer from "@/components/shared/footer";
-import "./globals.css";
-import Head from "next/head";
 import Analytics from "@/components/shared/analytics";
+import "./globals.css";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -31,9 +30,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Head>
-        <Analytics />
-      </Head>
+      <Analytics />
       <body
         className={`${dmsansDisplay.variable} ${inter.className} antialiased p-2 bg-gray-50`}
       >
