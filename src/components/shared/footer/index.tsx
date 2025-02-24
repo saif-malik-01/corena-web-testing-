@@ -92,10 +92,10 @@ const Footer = () => {
               <Link href="/terms-and-conditions" className="text-sm font-light">Terms & Conditions</Link>
             </Button>
             <Button variant="link" asChild>
-              <Link href="/terms-and-conditions">Privacy Policy</Link>
+              <Link href="/privacy-policy">Privacy Policy</Link>
             </Button>
             <Button variant="link" asChild>
-              <Link href="/terms-and-conditions">Refund Policy</Link>
+              <Link href="/refund-policy">Refund Policy</Link>
             </Button>
             <p className="font-light md:block hidden">|</p>
             <p className="ml-4 mt-4 md:mt-0 flex items-center gap-1">
