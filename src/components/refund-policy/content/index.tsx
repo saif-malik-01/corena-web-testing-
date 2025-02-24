@@ -8,53 +8,89 @@ const Content = () => {
       <div className="mt-8 space-y-4 text-gray-800">
         <p>
           This refund and cancellation policy outlines how you can cancel or
-          seek a refund for a service that you have purchased through
-          the Platform. Under this policy:
+          seek a refund for a service that you have purchased through the
+          Platform. Under this policy:
         </p>
 
-        <ul className="list-disc pl-5 space-y-2">
-          {/* <li>
-            Cancellations will only be considered if the request is made within
-            5 days of placing the order. However, cancellation requests may not
-            be entertained if the orders have been communicated to such
-            sellers/merchant(s) listed on the Platform and they have initiated
-            the process of shipping them, or the product is out for delivery. In
-            such an event, you may choose to reject the product at the doorstep.
+        <h2 className="text-xl font-semibold mt-6 mb-2">
+          1. Subscription Cancellation
+        </h2>
+        <ul className="list-disc pl-6 mb-4">
+          <li>
+            Users can cancel their subscription at any time through their
+            account settings.
           </li>
-
           <li>
-            WELLMINTO HOME SERVICES PRIVATE LIMITED does not accept cancellation
-            requests for perishable items like flowers, eatables, etc. However,
-            the refund/replacement can be made if the user establishes that the
-            quality of the product delivered is not good.
+            If a cancellation request is made within the first{" "}
+            <strong>5 days</strong> of a paid subscription, users may be
+            eligible for a refund.
           </li>
-
           <li>
-            In case of receipt of damaged or defective items, please report to
-            our customer service team. The request would be entertained once the
-            seller/merchant listed on the Platform, has checked and determined
-            the same at its own end. This should be reported within 5 days of
-            receipt of products.
-          </li>
-
-          <li>
-            In case you feel that the product received is not as shown on the
-            site or as per your expectations, you must bring it to the notice of
-            our customer service within 5 days of receiving the product. The
-            customer service team after looking into your complaint will take an
-            appropriate decision.
-          </li>
-
-          <li>
-            In case of complaints regarding products that come with a warranty
-            from the manufacturers, please refer the issue to them.
-          </li> */}
-
-          <li>
-            In case of any refunds approved by WELLMINTO HOME SERVICES PRIVATE
-            LIMITED, it will take 10 days for the refund to be credited to you.
+            After 5 days, cancellations will not qualify for a refund, but users
+            can continue using the Service until the end of their billing cycle.
           </li>
         </ul>
+
+        <h2 className="text-xl font-semibold mt-6 mb-2">
+          2. Refund Eligibility
+        </h2>
+        <ul className="list-disc pl-6 mb-4">
+          <li>
+            <strong>Technical Issues:</strong> If the Service fails due to
+            technical faults on our end and our support team cannot resolve it
+            within <strong>5 business days</strong>.
+          </li>
+          <li>
+            <strong>Billing Errors:</strong> If you were charged incorrectly, we
+            will process a refund after verification.
+          </li>
+          <li>
+            <strong>First-Time Users:</strong> If you are unsatisfied with the
+            Service and request a refund within <strong>5 days</strong> of the
+            initial purchase, we will review your case.
+          </li>
+        </ul>
+
+        <h2 className="text-xl font-semibold mt-6 mb-2">
+          3. Non-Refundable Cases
+        </h2>
+        <ul className="list-disc pl-6 mb-4">
+          <li>
+            No refunds for <strong>monthly plans</strong> after 5 days.
+          </li>
+          <li>
+            No refunds for users who have{" "}
+            <strong>violated the Terms of Service</strong>.
+          </li>
+          <li>
+            No refunds if the Service has been <strong>used extensively</strong>
+            .
+          </li>
+          <li>
+            No refunds for{" "}
+            <strong>
+              missing features not yet part of the Service roadmap
+            </strong>
+            .
+          </li>
+        </ul>
+
+        <h2 className="text-xl font-semibold mt-6 mb-2">4. Refund Process</h2>
+        <ul className="list-disc pl-6 mb-4">
+          <li>
+            To request a refund, contact support at{" "}
+            <strong>contact@mapsily.com</strong> with issue details.
+          </li>
+          <li>
+            Approved refunds will be credited within{" "}
+            <strong>10 business days</strong> to the original payment method.
+          </li>
+        </ul>
+
+        <p className="mt-6 text-gray-600">
+          We reserve the right to modify this policy at any time. Continued use
+          of the Service constitutes acceptance of any changes.
+        </p>
       </div>
     </div>
   );
