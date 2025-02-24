@@ -8,12 +8,12 @@ const Content = () => {
       <div className="mt-8 space-y-4 text-gray-800">
         <p>
           This refund and cancellation policy outlines how you can cancel or
-          seek a refund for a product/service that you have purchased through
+          seek a refund for a service that you have purchased through
           the Platform. Under this policy:
         </p>
 
         <ul className="list-disc pl-5 space-y-2">
-          <li>
+          {/* <li>
             Cancellations will only be considered if the request is made within
             5 days of placing the order. However, cancellation requests may not
             be entertained if the orders have been communicated to such
@@ -48,7 +48,7 @@ const Content = () => {
           <li>
             In case of complaints regarding products that come with a warranty
             from the manufacturers, please refer the issue to them.
-          </li>
+          </li> */}
 
           <li>
             In case of any refunds approved by WELLMINTO HOME SERVICES PRIVATE
