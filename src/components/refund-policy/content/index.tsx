@@ -52,7 +52,7 @@ const Content = () => {
 
           <li>
             In case of any refunds approved by WELLMINTO HOME SERVICES PRIVATE
-            LIMITED, it will take 10 days for the refund to be processed to you.
+            LIMITED, it will take 10 days for the refund to be credited to you.
           </li>
         </ul>
       </div>
