@@ -1,8 +1,10 @@
 import Script from "next/script";
 
 const Analytics = () => {
+  if (process.env.NODE_ENV !== "production") return null;
   return (
     <Script
+      id="clarity-script"
       type="text/javascript"
       dangerouslySetInnerHTML={{
         __html: `
