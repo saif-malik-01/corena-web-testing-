@@ -9,8 +9,8 @@ const Hero = () => {
     <section className="dark bg-black/95 text-white/95 rounded-2xl pt-32 md:pb-16 pb-4 px-4 flex flex-col gap-6 items-center">
       <Badge variant="outline">Supercharge your outreach 🚀</Badge>
       <h1 className="text-center text-3xl md:text-6xl font-semibold">
-        Turn Cold Leads into <br />{" "}
-        <span className="font-dmsansDisplay italic">Warm Conversations</span>
+        Automate your <br />{" "}
+        <span className="font-dmsansDisplay italic">Sales Conversations</span>
       </h1>
       <span className="md:w-1/3 text-center text-sm">
         Let AI handle cold calls, qualify leads, and schedule appointments so
