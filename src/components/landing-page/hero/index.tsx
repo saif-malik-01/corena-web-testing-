@@ -17,7 +17,7 @@ const Hero = () => {
         you can focus on closing deals.
       </span>
       <VoiceBlob />
-      <BookingInput />
+      {/* <BookingInput /> */}
       <div className="flex gap-2 items-center md:mb-8 mb-4">
         <span className="flex -space-x-2">
           <Avatar className="w-[20px] h-[20px]">

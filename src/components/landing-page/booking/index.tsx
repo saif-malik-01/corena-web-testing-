@@ -13,12 +13,12 @@ const Booking = () => {
         Without lifting a finger
       </p>
       <div className="flex flex-row justify-center gap-4">
-        <Button asChild>
+        {/* <Button asChild>
           <Link href="#">Start Free Trial</Link>
         </Button>
         <Button asChild variant="outline">
           <Link href="#" className="text-white">Book a Demo</Link>
-        </Button>
+        </Button> */}
       </div>
       <p className="text-sm text-gray-200 font-light">No credit card required</p>
       <Image

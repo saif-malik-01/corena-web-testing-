@@ -15,8 +15,8 @@ const NavbarContent = () => {
         </ul>
       </nav>
       <span className="flex gap-2 justify-self-end">
-        <Button variant="outline">Book a demo</Button>
-        <Button>Get Started</Button>
+        {/* <Button variant="outline">Book a demo</Button>
+        <Button>Get Started</Button> */}
       </span>
     </>
   );
