@@ -1,4 +1,4 @@
-import BookingInput from "./booking-input";
+// import BookingInput from "./booking-input";
 import ClientShowcase from "./client-showcase";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
