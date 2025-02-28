@@ -1,6 +1,6 @@
 import { PRICINGS } from "@/contants/pricings";
 import PricingCard from "./pricing-card";
-import PricingSelector from "./pricing-selector";
+// import PricingSelector from "./pricing-selector";
 
 const Plans = () => {
   return (
@@ -8,7 +8,7 @@ const Plans = () => {
       <h1 className="text-2xl md:text-4xl font-semibold">
         Choose Your <span className="text-accent">Plan</span>
       </h1>
-      <PricingSelector />
+      {/* <PricingSelector /> */}
       <div className="md:px-28 flex md:flex-row flex-col gap-4">
         {PRICINGS.map((p) => (
           <PricingCard key={p.title} {...p} />

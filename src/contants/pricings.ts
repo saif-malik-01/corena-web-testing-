@@ -38,17 +38,17 @@ export const PRICINGS = [
     ],
   },
 
-  {
-    title: "Enterprise",
-    price: "Custom",
-    Icon: Laptop,
-    buttonName: "Contact Sales",
-    variant: "secondary",
-    features: [
-      "Everything in Growth +",
-      "Unlimited AI Calls",
-      "Dedicated Account Manager",
-      "Custom Integrations",
-    ],
-  },
+  // {
+  //   title: "Enterprise",
+  //   price: "Custom",
+  //   Icon: Laptop,
+  //   buttonName: "Contact Sales",
+  //   variant: "secondary",
+  //   features: [
+  //     "Everything in Growth +",
+  //     "Unlimited AI Calls",
+  //     "Dedicated Account Manager",
+  //     "Custom Integrations",
+  //   ],
+  // },
 ];
